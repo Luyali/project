@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/user', function () {
     echo "新增路由";
 });
+
+Route::get('/users', function () {
+    echo "新增路由2";
+});
