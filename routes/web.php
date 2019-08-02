@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/user', function () {
     echo "新建的user路由";
 });
+
+Route::get('/users', function () {
+    echo "新建的users路由";
+});
