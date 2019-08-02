@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/user', function () {
-    echo "新建的user路由"
+    echo "新建的user路由";
 });
